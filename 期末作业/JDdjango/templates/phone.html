@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>京东手机</h1>
+    <table>
+    {% for line in phone_list %}
+    <tr>
+        <td>{{line.name}}</td>
+        <td>{{line.price}}</td>
+        
+    </tr>
+    {% endfor %}
+    </table>
+</body>
+</html>
